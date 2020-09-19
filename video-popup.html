@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video-popup</title>
+    <link rel="stylesheet" href="css/pop.css">
+    <!--adding the links from bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="pop-container">
+        <div class="video-image">
+            <img class="video-image" src="images/Screen Shot 2020-09-11 at 11.37.55 AM.png" alt="video image">
+            <img src="images/Play Button.png" alt="play-button-image" class="playbtn-image" data-toggle="modal"
+                data-target="#playVideo">
+        </div>
+    </div>
+    <div class="modal fade" id="playVideo">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                   <iframe class="video-play"
+                    src="https://www.youtube.com/embed/ZXvJLJTh704?version=3&rel=0&controls=1&showinfo=0&modestbranding=1&"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+                  </iframe>
+                   <!--<video class="video-play" autoplay controls>
+                        <source src="images/The Balancing Act- Full Video.mp4" type="video/mp4">
+                    </video>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

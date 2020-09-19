@@ -1,0 +1,27 @@
+.playbtn-image{
+    width: 60px;
+    float: left;
+    position: absolute;
+    left: 930px;
+    top: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0;
+}
+.video-image:hover .playbtn-image
+{
+    opacity: 1;
+}
+.modal-content{
+    background-color: transparent !important;
+    border: none !important;
+    width: 50%;
+}
+.video-play{
+    width: 1280px;
+    height: 800px;
+}
+.modal-body{
+    left: auto;
+    right: 400px;
+}
